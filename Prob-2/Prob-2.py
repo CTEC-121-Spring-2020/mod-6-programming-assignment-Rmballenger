@@ -2,9 +2,22 @@
 #   Programming Assignment 10
 #     Prob-2.py
 
-# <YOUR NAME>
+# Robert Ballenger
+
+# I - 
+# P -
+# O -
 
 def main():
-    # your code here
+    infile = open('Prob-2-Input.txt' ,'r')
+    sum = 0.0
+    for line in infile:
+        sum = sum + float(line)
+    print(sum)
 
-main()    
+def test():
+    inFile = open('/mod-6-programming-assignment-Rmballenger/Prob-2/Prob-2-Input.txt', 'r')
+    contents = inFile.read()
+    print(contents)
+
+test()
