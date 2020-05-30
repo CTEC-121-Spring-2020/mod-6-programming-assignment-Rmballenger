@@ -2,9 +2,10 @@
 #   Programming Assignment 10
 #     Prob-5.py
 
-# <YOUR NAME>
+# Robert Ballenger
 
 def main():
     # your code here
 
-main()    
+
+main()
